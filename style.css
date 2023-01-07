@@ -1,0 +1,259 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(apple.jpg);
+ background-size: cover;
+ background-position: center; 
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px; 
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+
+.logo{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  cursor:pointer;
+   
+}
+span{
+  color: #f9004d;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+  color:#f9004d; 
+  transition:0.4s;
+
+}
+.btn{
+   background-color: #f9004d;
+   color: white;
+   text-decoration: none;
+   border:2px solid transparent;
+   cursor: pointer;
+   font-weight: bold;
+   width:150px;
+   padding:10px 30px;
+   border-radius: 24px;
+   transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.content{
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   font-size: 25px;
+}
+h1{
+  color:white;
+  margin:20px 0px 20px;
+  font-size: 75px;
+}
+h3{
+  color:white;
+  font-size: 25px;
+  margin-bottom: 50px; 
+}
+h4{
+  color:white;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.news form{
+  width:380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.news form input[type="email"]{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border:2px solid #f9004d;
+  border-radius: 24px;
+  outline: none;
+}
+.news form input[type="submit"]{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border:none;
+  padding: 10px 30px;
+  border-radius:24px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000,0px 0px 15px #858585 ;
+  top:6px;
+  right: 6px;
+  cursor:pointer;
+}
+.about{
+  background-color:#020202;
+  height:800px;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.about img{
+  width:500px;
+  height:500px;
+  margin-top:160px;
+  margin-left: 100px;
+}
+.aboutme{
+  margin-top:200px;
+  margin-left:50px;
+}
+.aboutme button{
+  outline: none;
+  border-radius: 25px;
+  width:180px;
+  height:70px;
+  cursor: pointer;
+  color: white;
+  background-color: #f9004d;
+  transition: background-color;
+}
+
+.aboutme a{
+  border:2px solid transparent;
+  border-radius: 25px;
+  width:180px;
+  padding:23px 59px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: #f9004d;
+  transition: background-color;
+}
+.aboutme a:hover,button:hover{
+  background-color: #000;
+  border:2px solid #f9004d;
+  transition:0.4s;
+}
+ .aboutme p{
+  color: white;
+  margin-top: 12px;
+  margin-bottom:12px;
+  font-size: 18px;
+}
+.aboutme h2{
+  margin-top: 12px;
+  color: white;
+  margin-bottom: 12px;
+  font-size: 75px;
+}
+.aboutme h5{
+  font-size:30px;
+  color: white;
+}
+.service{
+padding:70px 0px;
+background-color: #101010;
+}
+.tit h2{
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  margin: 20px auto;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:200px;
+}
+.card{
+  background-color: #191919;
+  height: 365px;
+  width: 335px;
+  margin: 50px;
+  padding: 20px 35px;
+  border-radius: 25px;
+  position:relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+font-size: 70px;
+margin:20px;
+color: #f9004d;
+display: block;
+}
+.card h5{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.para1,.para2{
+ font-size: 18px;
+ color: #fcfc;
+ margin-top:20px
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  height:200px;
+  background-color:#020202;
+}
+.contact h2{
+  color: white;
+  margin-bottom:20px ;
+
+}
+footer p{
+  margin-bottom: 30px;
+  color: white;
+  
+}
+.social a{
+  margin-left: 50px;
+  font-size: 18px;
+  color:white;
+  margin-left:20px;
+  border:2px solid #f9004d;
+  padding:12px;
+  border-radius: 50%;
+  text-decoration: none;
+  
+  transition: background-color;
+}
+.social a:hover{
+  background-color: #f9004d;
+  transition:0.4s ease-in-out;
+  
+}
+footer h4{
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: right;
+}
+
