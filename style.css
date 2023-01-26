@@ -7,7 +7,7 @@
 .main{
   height: 100vh;
   width: 100%;
-  background-image: url(apple.jpg);
+  background-image: url(background2.jpg);
  background-size: cover;
  background-position: center; 
 }
