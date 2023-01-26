@@ -74,17 +74,19 @@ nav ul li a:hover{
 h1{
   color:white;
   margin:20px 0px 20px;
+  font-family:'blanka';
+  letter-spacing: 12px;
   font-size: 75px;
 }
 h3{
   color:white;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 50px; 
 }
 h4{
   color:white;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .news form{
   width:380px;
